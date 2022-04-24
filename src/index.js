@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import GpaCal from './pages/GpaCal'
+import GpaCal from './pages/gpacal'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   // <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<GpaCal />}/>
-      </Routes>
-    </BrowserRouter>
+    <GpaCal />
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path='/' element={<GpaCal />}/>
+    //   </Routes>
+    // </BrowserRouter>
   /* </React.StrictMode> */
   ,document.getElementById('root')
 );
