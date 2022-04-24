@@ -49,21 +49,13 @@ const InsertGpa = () =>{
   var [gpaResult, setGpaResult] = useState("")
 
 
-  useEffect(() => {
-    console.log("wtf", subjectlist);
-  }, [subjectlist])
 
-  function checkCred(cred){
-    if (cred < 3){
-      
-    }
-  }
+
 
 
   // click to add new subject
   function plus() {
     setSubject(function (prevSubList) {
-      console.log("preSubList", prevSubList);
       // for null subjectlist, the subjectlist.id need to be assign as 1
       if (prevSubList.length === 0){
         return [{
@@ -123,7 +115,6 @@ const InsertGpa = () =>{
   //handle target gpa change
   function tarGpaChange(e) {
     let { value, min, max, name } = e.target;
-    console.log(value);
     if (value === ""){
       settarGpaInput("")
       let tempArray = {...tarGpaInput}

@@ -10,7 +10,6 @@ const SubjectItems = ( props ) => {
   // handle credit change
   function credChange(e) {
     let { value, min, max } = e.target;
-    console.log(value);
     if (value === ""){
       let tempArray = [...subjectlist]
       tempArray[props.subjectID-1].credit = NaN
@@ -19,7 +18,6 @@ const SubjectItems = ( props ) => {
     }
     value = Math.max(Number(min), Math.min(Number(max), Number(value)));
 
-    console.log(value);
     let tempArray = [...subjectlist]
     tempArray[props.subjectID-1].credit = Number(value)
     setSubject(tempArray)
@@ -64,14 +62,14 @@ const SubjectItems = ( props ) => {
           <option value="4">A</option>
           <option value="3.7">A-</option>
           <option value="3.3">B+</option>
-          <option value="3.0">B</option>
+          <option value="3">B</option>
           <option value="2.7">B-</option>
           <option value="2.3">C+</option>
-          <option value="2.0">C</option>
+          <option value="2">C</option>
           <option value="1.7">C-</option>
           <option value="1.3">D+</option>
-          <option value="1.0">D</option>
-          <option value="0.0">F</option>
+          <option value="1">D</option>
+          <option value="0">F</option>
         </select>
 
       </td>
