@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gpacal/static/css/main.de2d0179.css",
+    "main.js": "/gpacal/static/js/main.5e37dac6.js",
+    "index.html": "/gpacal/index.html",
+    "main.de2d0179.css.map": "/gpacal/static/css/main.de2d0179.css.map",
+    "main.5e37dac6.js.map": "/gpacal/static/js/main.5e37dac6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de2d0179.css",
+    "static/js/main.5e37dac6.js"
+  ]
+}
