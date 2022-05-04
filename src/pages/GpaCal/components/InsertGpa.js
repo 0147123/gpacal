@@ -94,10 +94,6 @@ const InsertGpa = () =>{
         alert("請輸入學分 (Credit) 所對應的等級 (Grade)")
         return
       }
-      if (!Number.isInteger(i.credit)){
-        alert("學分(Credit) 必須是整數")
-        return
-      }
       total+= i.credit*i.grade
       sumCred+= i.credit
     }
