@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gpacal/static/css/main.de2d0179.css",
-    "main.js": "/gpacal/static/js/main.58f62378.js",
+    "main.js": "/gpacal/static/js/main.b6fa5516.js",
     "index.html": "/gpacal/index.html",
     "main.de2d0179.css.map": "/gpacal/static/css/main.de2d0179.css.map",
-    "main.58f62378.js.map": "/gpacal/static/js/main.58f62378.js.map"
+    "main.b6fa5516.js.map": "/gpacal/static/js/main.b6fa5516.js.map"
   },
   "entrypoints": [
     "static/css/main.de2d0179.css",
-    "static/js/main.58f62378.js"
+    "static/js/main.b6fa5516.js"
   ]
 }
